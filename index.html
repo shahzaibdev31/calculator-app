@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div class="display-container">
+        <div id="operation-display" class="operation-display">0</div>
+        <div id="display" class="display">0</div>
+      </div>
+
+      <div class="buttons-grid">
+        <button data-role="clear" data-value="AC" class="btn btn-operation">AC</button>
+        <button data-role="delete" data-value="DEL" class="btn btn-operation">DEL</button>
+        <button data-role="operator" data-value="%" class="btn btn-operation">%</button>
+        <button data-role="operator" data-value="/" class="btn btn-amber">÷</button>
+
+        <button data-role="number" data-value="7" class="btn btn-number">7</button>
+        <button data-role="number" data-value="8" class="btn btn-number">8</button>
+        <button data-role="number" data-value="9" class="btn btn-number">9</button>
+        <button data-role="operator" data-value="*" class="btn btn-amber">×</button>
+
+        <button data-role="number" data-value="4" class="btn btn-number">4</button>
+        <button data-role="number" data-value="5" class="btn btn-number">5</button>
+        <button data-role="number" data-value="6" class="btn btn-number">6</button>
+        <button data-role="operator" data-value="-" class="btn btn-amber">-</button>
+
+        <button data-role="number" data-value="1" class="btn btn-number">1</button>
+        <button data-role="number" data-value="2" class="btn btn-number">2</button>
+        <button data-role="number" data-value="3" class="btn btn-number">3</button>
+        <button data-role="operator" data-value="+" class="btn btn-amber">+</button>
+
+        <button data-role="number" data-value="0" class="btn btn-number">0</button>
+        <button data-role="decimal" data-value="." class="btn btn-number">.</button>
+        <button data-role="operator" data-value="^" class="btn btn-number">^</button>
+        <button data-role="equals" data-value="=" class="btn btn-amber equals">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
